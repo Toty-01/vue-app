@@ -1,8 +1,10 @@
 <template>
   <div class="home">
+
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Bienvenue sur mon site"/>
-    <h2 class="mt-4"><b>My todoApp with vue</b></h2>
+
+    <h2 class="mt-4"><b>My todoApps with vue</b></h2>
 
     <div class="input-value d-flex m-4">
       <input v-model="task" type="text" placeholder="Entrer une tâche" class="form-control">
